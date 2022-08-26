@@ -1,7 +1,7 @@
 ---
 title: Writing a New Post
 author: Derek
-date: 08-25-2022
+date: 2022-08-25 14:10:00 +0800
 categories: [Blogging]
 tags: [writing]
 render_with_liquid: false
