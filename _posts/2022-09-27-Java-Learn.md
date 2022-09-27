@@ -1,6 +1,6 @@
 ---
 title: Resources for Learning Java
-author: HongHead
+author: derek
 date: 2022-09-27 04:00:00 +0800
 categories: [Blogging, Code]
 tags: [typography]
