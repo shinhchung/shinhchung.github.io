@@ -2,7 +2,7 @@
 title: Resources for Learning Java
 author: HongHead
 date: 2022-09-27 04:00:00 +0800
-categories: [Blogging, Code]
+categories: [Blogging, Code,java]
 tags: [typography]
 render_with_liquid: false
 ---
