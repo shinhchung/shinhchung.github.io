@@ -100,7 +100,7 @@ comments:
   # Giscus options › https://giscus.app
   giscus:
     repo: derekshchung/derekshchung.github.io      # <gh-username>/<repo>
-    repo_id: derekshchung
+    repo_id: 38447489
     category: Comments
     category_id:
     mapping:          # optional, default to 'pathname'
