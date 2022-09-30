@@ -7,6 +7,9 @@ tags: [typography]
 render_with_liquid: false
 ---
 
+<h2>I just apply Amazon Technical Academy</h2>
+Amazon Technical Acdemy required to learn Java, I know java, but not very deep,
+here is Amazon cohort share with me 
 <h2>Books and Blog Posts</h2>
 
 <ul>
