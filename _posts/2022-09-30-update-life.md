@@ -8,13 +8,18 @@ render_with_liquid: false
 ---
 
 <h2>Cooking learn from Youtube</h2>
-I made a chicken Soup
-Carrots
-Celery ribs
-1 medium onion
-1/2 cup parsley
-Beef and pig meat
-itialian seasoned breadcrumbs
-peocorino romano
-chicken stock
-chicken thing
+
+
+### I made a chicken Soup follow by Youtube
+
+1. Carrots
+2. Celery ribs
+3. 1 medium onion
+4. 1/2 cup parsley
+5. Beef and pig meat
+6. itialian seasoned breadcrumbs
+7. peocorino romano
+8. chicken stock
+9. chicken thing
+
+<iframe width="560" height="315" src="https://youtu.be/ZKYFvVXeNnI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
