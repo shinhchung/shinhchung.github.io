@@ -7,8 +7,8 @@ tags: [writing]
 render_with_liquid: false
 ---
 
-Next Year on January 16 2023, it is Marthin Luther King Day
-I like MLK said "I am a Dream". A Dream mean, you will try what you can do to catch your dream, even you never got it.
+Next Year on January 16 2023, it is Marthin Luther King Day.
+I like MLK said "I have a Dream". A Dream mean, you will try what you can do to catch your dream, even you never got it.
 
 Like MLK do, service people may not impact immediately, but for the long term, that may help a lot of people, service people is not only for yourself, it is for the world.
 
