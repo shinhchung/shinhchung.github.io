@@ -8,12 +8,12 @@ render_with_liquid: false
 ---
 
 Next Year on January 16 2023, it is Marthin Luther King Day.
-I like MLK said "I have a Dream". A Dream mean, you will try what you can do to catch your dream, even you never got it.
+I like what MLK said "I have a Dream". A Dream means, you will try what you can do to catch your dream, even if you never get there.
 
-Like MLK do, service people may not impact immediately, but for the long term, that may help a lot of people, service people is not only for yourself, it is for the world.
+Just like MLK did, service people do not impact immediately, but for the long term, that may help a lot of people, you do service not only for yourself, it is for the world.
 
 *If you could go back in time and meet MLK, what would you say to him?*
-I think I would say today is better than past, but could be better.
+I think I would say today is better than past, but could be even better.
 
 *What would you do to make the world a better place?*
-I am a negligible person. I can't do something like Elon Musk, but that mean I would do anything to make the world better. I would like to try make do some share in internet, like this blog, hope some clever people read this and do something better than me. It is meaning I also do a good thing to make the world better?
+I am only one person. I can't do something big like Elon Musk, but that means I would still do anything to make the world better. I would like to share my ideas on internet, like this blog, I hope some clever people read this and do something better than me. Does this mean I am also do a good thing to make the world better?
