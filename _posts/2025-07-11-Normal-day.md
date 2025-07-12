@@ -1,5 +1,5 @@
 ---
-title: Novmal day
+title: Normal day
 author: derek
 date: 2025-07-11 22:48:00 +0800
 categories: [Blogging]
