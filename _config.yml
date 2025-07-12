@@ -99,7 +99,7 @@ comments:
     issue_term: url  # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: derekshchung/derekshchung.github.io      # <gh-username>/<repo>
+    repo: shinhchung/shinhshchung.github.io      # <gh-username>/<repo>
     repo_id: R_kgDOH4jM8Q
     category: Comments
     category_id: DIC_kwDOH4jM8c4CRulM
