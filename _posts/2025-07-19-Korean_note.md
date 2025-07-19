@@ -1,5 +1,5 @@
 ---
-title: Korean Note
+title: Google API?
 author: derek
 date: 2025-07-19 22:48:00 +0800
 categories: [Notes, Korean]
