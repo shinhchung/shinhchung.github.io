@@ -35,7 +35,7 @@ github:
   username: shinhchung             # change to your github username
 
 twitter:
-  username: shinhchung            # change to your twitter username
+  username: shinhchung            # change to your x username
 
 social:
   # Change to your full name.
@@ -44,7 +44,7 @@ social:
   #email: example@doamin.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/shinhchung      # change to your twitter homepage
+    - https://twitter.com/shinhchung      # change to your X homepage
     - https://github.com/shinhchung       # change to your github homepage
     - https://www.linkedin.com/in/shinhchung #change to your linkedin homepage
     # Uncomment below to add more social links
