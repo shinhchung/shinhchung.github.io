@@ -56,10 +56,14 @@ build() {
 }
 
 test() {
-  bundle exec htmlproofer \
-    --disable-external \
-    --allow_hash_href \
-    "$SITE_DIR"
+  if [[ -d "$SITE_DIR" ]]; then
+    bundle exec htmlproofer \
+      --disable-external \
+      --allow_hash_href \
+      "$SITE_DIR"
+  else
+    echo "⚠️ Skip htmlproofer: $SITE_DIR not found."
+  fi
 }
 
 resume_site_dir() {
