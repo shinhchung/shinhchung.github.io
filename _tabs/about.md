@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 title: About
+=======
+# the default layout is 'page'
+>>>>>>> upstream/master
 icon: fas fa-info-circle
 order: 4
 ---

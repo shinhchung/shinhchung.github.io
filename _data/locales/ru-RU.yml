@@ -3,14 +3,22 @@
 # ----- Commons label -----
 
 layout:
+<<<<<<< HEAD
   post: Публикация
+=======
+  post: Пост
+>>>>>>> upstream/master
   category: Категория
   tag: Тег
 
 # The tabs of sidebar
 tabs:
   # format: <filename_without_extension>: <value>
+<<<<<<< HEAD
   home: Домашняя страница
+=======
+  home: Главная
+>>>>>>> upstream/master
   categories: Категории
   tags: Теги
   archives: Архив
@@ -19,8 +27,13 @@ tabs:
 # the text displayed in the search bar & search results
 search:
   hint: поиск
+<<<<<<< HEAD
   cancel: Отменить
   no_results: Ох! Ничего не найдено.
+=======
+  cancel: Отмена
+  no_results: Упс! Ничего не найдено.
+>>>>>>> upstream/master
 
 panel:
   lastmod: Недавно обновлено
@@ -30,13 +43,18 @@ panel:
 copyright:
   # Shown at the bottom of the post
   license:
+<<<<<<< HEAD
     template: Публикация защищена лицензией :LICENSE_NAME.
+=======
+    template: Авторский пост защищен лицензией :LICENSE_NAME.
+>>>>>>> upstream/master
     name: CC BY 4.0
     link: https://creativecommons.org/licenses/by/4.0/
 
   # Displayed in the footer
   brief: Некоторые права защищены.
   verbose: >-
+<<<<<<< HEAD
     Публикации на сайте защищены лицензией Creative Commons Attribution 4.0 International (CC BY 4.0),
     если в тексте публикации не указано иное.
 
@@ -48,16 +66,33 @@ not_found:
 notification:
   update_found: Доступна новая версия контента.
   update: Обновлять
+=======
+    Если не указано иное, авторские посты на этом сайте защищены лицензией Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+meta: Использует тему :THEME для :PLATFORM
+
+not_found:
+  statement: Извините, мы перепутали URL-адрес или он указывает на что-то несуществующее.
+
+notification:
+  update_found: Доступна новая версия контента.
+  update: Обновить
+>>>>>>> upstream/master
 
 # ----- Posts related labels -----
 
 post:
   written_by: Автор
+<<<<<<< HEAD
   posted: Время публикации
+=======
+  posted: Опубликовано
+>>>>>>> upstream/master
   updated: Обновлено
   words: слов
   pageview_measure: просмотров
   read_time:
+<<<<<<< HEAD
     unit: минут
     prompt: чтения
   relate_posts: Вам также может быть интересно
@@ -77,3 +112,33 @@ post:
 categories:
   category_measure: категории
   post_measure: публикации
+=======
+    unit: мин.
+    prompt: чтения
+  relate_posts: Похожие посты
+  share: Поделиться
+  button:
+    next: Следующий пост
+    previous: Предыдущий пост
+    copy_code:
+      succeed: Скопировано!
+    share_link:
+      title: Скопировать ссылку
+      succeed: Ссылка успешно скопирована!
+
+# Date time format.
+# See: <http://strftime.net/>, <https://day.js.org/docs/en/display/format>
+df:
+  post:
+    strftime: "%d.%m.%Y"
+    dayjs: "DD.MM.YYYY"
+
+# categories page
+categories:
+  category_measure:
+    singular: категория
+    plural: категории
+  post_measure:
+    singular: пост
+    plural: посты
+>>>>>>> upstream/master

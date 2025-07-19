@@ -40,10 +40,17 @@ copyright:
     Публікації на сайті захищено ліцензією Creative Commons Attribution 4.0 International (CC BY 4.0),
     якщо інше не вказано в тексті.
 
+<<<<<<< HEAD
 meta: Powered by :PLATFORM with :THEME theme.
 
 not_found:
   statment: Вибачте, це посилання вказує на ресурс, що не існує.
+=======
+meta: Powered by :PLATFORM with :THEME theme
+
+not_found:
+  statement: Вибачте, це посилання вказує на ресурс, що не існує.
+>>>>>>> upstream/master
 
 notification:
   update_found: Доступна нова версія вмісту.
@@ -70,8 +77,11 @@ post:
     share_link:
       title: Скопіювати посилання
       succeed: Посилання успішно скопійовано!
+<<<<<<< HEAD
   # pinned prompt of posts list on homepage
   pin_prompt: Закріплено
+=======
+>>>>>>> upstream/master
 
 # categories page
 categories:

@@ -40,10 +40,17 @@ copyright:
     Salvo que se indique explícitamente, las entradas de este blog están licenciadas
     bajo la Creative Commons Attribution 4.0 International (CC BY 4.0) License por el autor.
 
+<<<<<<< HEAD
 meta: Hecho con :PLATFORM usando el tema :THEME.
 
 not_found:
   statment: Lo sentimos, hemos perdido esa URL o apunta a algo que no existe.
+=======
+meta: Hecho con :PLATFORM usando el tema :THEME
+
+not_found:
+  statement: Lo sentimos, hemos perdido esa URL o apunta a algo que no existe.
+>>>>>>> upstream/master
 
 notification:
   update_found: Hay una nueva versión de contenido disponible.
@@ -59,7 +66,11 @@ post:
   pageview_measure: visitas
   read_time:
     unit: min
+<<<<<<< HEAD
     prompt: ' de lectura'
+=======
+    prompt: " de lectura"
+>>>>>>> upstream/master
   relate_posts: Lecturas adicionales
   share: Compartir
   button:
@@ -70,8 +81,11 @@ post:
     share_link:
       title: Copiar enlace
       succeed: ¡Enlace copiado!
+<<<<<<< HEAD
   # pinned prompt of posts list on homepage
   pin_prompt: Fijado
+=======
+>>>>>>> upstream/master
 
 # categories page
 categories:
