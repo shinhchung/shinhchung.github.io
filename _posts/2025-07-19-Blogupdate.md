@@ -1,7 +1,7 @@
 ---
 title: BlogS Notes
 author: derek
-date: 2025-07-19 19:27:00 +0800
+date: 2025-07-19 19:27:00 -0400
 categories: [Notes, Blog]
 tags: [Blog]
 render_with_liquid: false
