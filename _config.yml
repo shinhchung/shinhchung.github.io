@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # >>> Basic Site Info
-source: "https://rubygems.org"
+#source: "https://rubygems.org"
 theme: jekyll-theme-chirpy
 baseurl: ""  # If you're using GitHub Pages with a custom domain, leave this empty
 lang: en

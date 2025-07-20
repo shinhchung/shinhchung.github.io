@@ -40,17 +40,10 @@ copyright:
     Except where otherwise noted, the blog posts on this site are licensed
     under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author.
 
-<<<<<<< HEAD
-meta: Powered by :PLATFORM with :THEME theme.
-
-not_found:
-  statment: Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.
-=======
 meta: Using the :THEME theme for :PLATFORM.
 
 not_found:
   statement: Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.
->>>>>>> upstream/master
 
 notification:
   update_found: A new version of content is available.
@@ -77,10 +70,6 @@ post:
     share_link:
       title: Copy link
       succeed: Link copied successfully!
-<<<<<<< HEAD
-  # pinned prompt of posts list on homepage
-  pin_prompt: Pinned
-=======
 
 # Date time format.
 # See: <http://strftime.net/>, <https://day.js.org/docs/en/display/format>
@@ -91,7 +80,6 @@ df:
   archives:
     strftime: "%b"
     dayjs: "MMM"
->>>>>>> upstream/master
 
 # categories page
 categories:
