@@ -1,5 +1,5 @@
 ---
-title: BlogS Notes
+title: Blog Notes
 author: derek
 date: 2025-07-19 19:27:00 -0400
 categories: [Notes, Blog]
