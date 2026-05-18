@@ -1,0 +1,18 @@
+public/
+resources/
+.hugo_build.lock
+node_modules/
+themes/PaperMod/
+.claude/
+
+# OpenClaw workspace-local files
+.openclaw/
+AGENTS.md
+BOOTSTRAP.md
+HEARTBEAT.md
+IDENTITY.md
+SOUL.md
+TOOLS.md
+USER.md
+MEMORY.md
+memory/

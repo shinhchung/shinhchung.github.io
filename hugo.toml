@@ -1,0 +1,91 @@
+baseURL = "https://blog.hnghd.com/"
+languageCode = "en-us"
+title = "Derek's Blog"
+theme = "hnghd"
+enableRobotsTXT = true
+paginate = 10
+
+[params]
+  author = "Derek"
+  description = "Writing, notes, recipes, and daily reads."
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowFullTextinRSS = true
+  ShowToc = true
+  TocOpen = false
+  dateFormat = "2006-01-02"
+
+  [params.assets]
+    favicon = "favicon.svg"
+    favicon16x16 = "favicon.svg"
+    favicon32x32 = "favicon.svg"
+    apple_touch_icon = "favicon.svg"
+
+  [params.homeInfoParams]
+    Title = "Hi, I'm Derek"
+    Content = "Writing about life, tech, food, and the world."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/shinhchung"
+
+[[params.socialIcons]]
+  name = "x"
+  url = "https://x.com/shinhchung"
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/shinhchung/"
+
+
+[frontmatter]
+  date = ["date", "pubDate", "publishDate", ":default"]
+  lastmod = [":fileModTime", ":default"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 1
+  [[menu.main]]
+    name = "Notes"
+    url = "/notes/"
+    weight = 2
+  [[menu.main]]
+    name = "Recipes"
+    url = "/recipes/"
+    weight = 3
+  [[menu.main]]
+    name = "News"
+    url = "/news/"
+    weight = 4
+  [[menu.main]]
+    name = "Search"
+    url = "/search/"
+    weight = 5
+  [[menu.main]]
+    name = "Archive"
+    url = "/archive/"
+    weight = 6
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML"]
+  page = ["HTML"]
+
+[permalinks]
+  blog = "/blog/:slug/"
+  notes = "/notes/:slug/"
+  recipes = "/recipes/:slug/"
+  news = "/news/:slug/"

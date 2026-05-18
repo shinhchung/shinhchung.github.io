@@ -1,0 +1,9 @@
+name = "hnghd"
+license = "MIT"
+description = "Derek's personal blog theme, inspired by wiwi.blog"
+tags = ["blog", "clean", "green", "responsive", "dark", "light", "search"]
+min_version = "0.146.0"
+
+[author]
+  name = "Derek Chung"
+  homepage = "https://blog.hnghd.com"

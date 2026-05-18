@@ -1,0 +1,23 @@
+order:
+  - blog
+  - notes
+  - recipes
+  - news
+
+meta:
+  blog:
+    title: "Blog"
+    intro: "Personal writing, reflections, and everyday life."
+    description: "Long-form writing, reflections, personal updates, and life posts."
+  notes:
+    title: "Notes"
+    intro: "Study notes, saved references, and dev logs."
+    description: "Short updates, study notes, code logs, and quick captures."
+  recipes:
+    title: "Recipes"
+    intro: "Weekly meal ideas, cooking notes, and kitchen experiments."
+    description: "Practical recipes, meal-prep notes, and things I cooked."
+  news:
+    title: "News"
+    intro: "Daily briefings and things worth paying attention to."
+    description: "Curated briefings, roundups, and timely updates."

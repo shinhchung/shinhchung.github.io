@@ -1,0 +1,125 @@
+/* ── Notes Explorer (Folder Style) ── */
+.notes-page .page-description {
+  color: var(--secondary);
+  margin-top: 6px;
+  font-size: 0.95rem;
+}
+
+.notes-explorer {
+  margin-top: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* ── Folder ── */
+.notes-folder {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: border-color 0.15s;
+}
+
+.notes-folder:hover {
+  border-color: rgba(58,138,92,0.35);
+}
+
+.folder-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 16px;
+  background: var(--code-bg);
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--primary);
+  transition: background 0.12s;
+  user-select: none;
+}
+
+.folder-header:hover {
+  background: var(--accent-muted);
+}
+
+.folder-arrow {
+  font-size: 0.65rem;
+  color: var(--secondary);
+  transition: transform 0.2s;
+  flex-shrink: 0;
+}
+
+.folder-icon-open  { display: none; }
+.folder-icon-closed { display: inline; }
+
+.notes-folder.open .folder-arrow {
+  transform: rotate(90deg);
+}
+.notes-folder.open .folder-icon-open   { display: inline; }
+.notes-folder.open .folder-icon-closed { display: none; }
+
+.folder-name {
+  flex: 1;
+}
+
+.folder-count {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--secondary);
+  background: var(--border);
+  border-radius: 10px;
+  padding: 1px 8px;
+}
+
+/* ── Files list ── */
+.folder-files {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.25s ease;
+}
+
+.notes-folder.open .folder-files {
+  max-height: 1000px;
+}
+
+.folder-file a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 16px 9px 36px;
+  text-decoration: none;
+  color: var(--primary);
+  font-size: 0.88rem;
+  border-top: 1px solid var(--border);
+  transition: background 0.1s, color 0.1s;
+}
+
+.folder-file a:hover {
+  background: var(--accent-muted);
+  color: var(--accent);
+}
+
+.file-icon {
+  flex-shrink: 0;
+  font-size: 0.85rem;
+}
+
+.file-name {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.file-date {
+  font-size: 0.75rem;
+  color: var(--secondary);
+  flex-shrink: 0;
+}

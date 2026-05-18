@@ -1,0 +1,56 @@
+{{- define "main" }}
+
+<div class="notes-page">
+  <header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{- if .Description }}<p class="page-description">{{ .Description }}</p>{{- end }}
+  </header>
+
+  <div class="notes-explorer">
+    {{- $groups := .Pages.GroupByParam "folder" }}
+    {{- range $groups }}
+    {{- $folder := .Key }}
+    {{- $icon := "📁" }}
+    {{- if eq $folder "Programming" }}{{- $icon = "💻" }}{{- end }}
+    {{- if eq $folder "Language"    }}{{- $icon = "🌐" }}{{- end }}
+    {{- if eq $folder "Design"      }}{{- $icon = "🎨" }}{{- end }}
+    {{- if eq $folder "Life"        }}{{- $icon = "📝" }}{{- end }}
+
+    <div class="notes-folder" id="folder-{{ $folder | urlize }}">
+      <button class="folder-header" onclick="toggleFolder('folder-{{ $folder | urlize }}')">
+        <span class="folder-arrow">▶</span>
+        <span class="folder-icon-open">📂</span>
+        <span class="folder-icon-closed">{{ $icon }}</span>
+        <span class="folder-name">{{ $folder }}</span>
+        <span class="folder-count">{{ len .Pages }}</span>
+      </button>
+      <ul class="folder-files">
+        {{- range .Pages.ByTitle }}
+        <li class="folder-file">
+          <a href="{{ .Permalink }}">
+            <span class="file-icon">📄</span>
+            <span class="file-name">{{ .Title }}</span>
+            <span class="file-date">{{ .Date.Format "2006-01-02" }}</span>
+          </a>
+        </li>
+        {{- end }}
+      </ul>
+    </div>
+    {{- end }}
+  </div>
+</div>
+
+<script>
+function toggleFolder(id) {
+  var el = document.getElementById(id);
+  el.classList.toggle('open');
+}
+// Open all folders by default
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.notes-folder').forEach(function(f) {
+    f.classList.add('open');
+  });
+});
+</script>
+
+{{- end }}

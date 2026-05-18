@@ -1,0 +1,21 @@
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-inner">
+    {{- $currentSection := .Section }}
+    {{- range site.Sections }}
+    {{- if and .Pages (eq .Section $currentSection) }}
+    <div class="sidebar-section">
+      <h3 class="sidebar-section-title">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </h3>
+      <ul class="sidebar-posts">
+        {{- range .Pages.ByDate.Reverse }}
+        <li class="sidebar-post{{- if eq $.RelPermalink .RelPermalink }} active{{- end }}">
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </li>
+        {{- end }}
+      </ul>
+    </div>
+    {{- end }}
+    {{- end }}
+  </div>
+</aside>

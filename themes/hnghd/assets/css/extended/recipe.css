@@ -1,0 +1,55 @@
+/* ── Recipe Info Card ── */
+.recipe-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  background: var(--accent-muted);
+  border: 1px solid rgba(58,138,92,0.2);
+  border-radius: var(--radius);
+  padding: 18px 24px;
+  margin: 20px 0 28px;
+}
+
+.recipe-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 80px;
+  flex: 1;
+  gap: 4px;
+}
+
+.recipe-stat + .recipe-stat {
+  border-left: 1px solid rgba(58,138,92,0.2);
+  padding-left: 12px;
+}
+
+.recipe-stat-icon {
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+.recipe-stat-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--secondary);
+}
+
+.recipe-stat-value {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+/* ── Ingredients heading stands out ── */
+.post-content h2:has(+ ul),
+.post-content h2:has(+ ol) {
+  color: var(--accent);
+}
+
+@media (max-width: 480px) {
+  .recipe-card { padding: 14px 16px; gap: 8px; }
+  .recipe-stat + .recipe-stat { border-left: none; padding-left: 0; border-top: 1px solid rgba(58,138,92,0.15); padding-top: 8px; }
+}

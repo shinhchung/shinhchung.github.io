@@ -1,0 +1,195 @@
+/* ── Navbar search ── */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+}
+
+.nav-search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--code-bg, rgba(0,0,0,0.06));
+  border: 1.5px solid var(--border, #e0e0e0);
+  border-radius: 24px;
+  padding: 3px 12px;
+  cursor: text;
+  transition: border-color 0.15s, box-shadow 0.15s, width 0.2s;
+  width: 210px;
+}
+
+.nav-search:focus-within {
+  border-color: #3578e5;
+  box-shadow: 0 0 0 3px rgba(53,120,229,0.15);
+  width: 290px;
+  background: var(--theme, #fff);
+}
+
+.nav-search svg.search-icon {
+  flex-shrink: 0;
+  color: var(--secondary, #999);
+}
+
+.nav-search input[type="search"] {
+  border: none;
+  background: transparent;
+  outline: none;
+  color: var(--primary, #333);
+  font-size: 0.85rem;
+  width: 100%;
+  min-width: 0;
+}
+
+.nav-search input::placeholder { color: var(--secondary, #aaa); }
+.nav-search input::-webkit-search-cancel-button { display: none; }
+
+.nav-search-clear {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--secondary, #999);
+  padding: 0;
+  line-height: 1;
+  flex-shrink: 0;
+}
+.nav-search-clear:hover { color: var(--primary, #333); }
+.nav-search.has-value .nav-search-clear { display: flex; align-items: center; }
+
+.nav-search-kbd {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  flex-shrink: 0;
+  opacity: 0.5;
+}
+.nav-search:focus-within .nav-search-kbd { display: none; }
+
+.nav-search-kbd kbd {
+  font-family: inherit;
+  font-size: 0.68rem;
+  background: var(--theme, #fff);
+  border: 1px solid var(--border, #ddd);
+  border-radius: 4px;
+  padding: 1px 5px;
+  line-height: 1.5;
+  color: var(--secondary, #999);
+}
+
+/* ── Results dropdown ── */
+.nav-search-results {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  list-style: none;
+  margin: 0;
+  padding: 6px 0 0;
+  background: var(--theme, #fff);
+  border: 1px solid var(--border, #e0e0e0);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.14);
+  width: 420px;
+  z-index: 200;
+  overflow: hidden;
+}
+
+.nav-search-results[hidden] { display: none; }
+
+.nav-search-results li { border-bottom: 1px solid var(--border, #f0f0f0); }
+.nav-search-results li:last-child { border-bottom: none; }
+
+.nav-search-results li a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  text-decoration: none;
+  color: var(--primary, #333);
+  transition: background 0.1s;
+}
+
+.nav-search-results li a:hover,
+.nav-search-results li.active a {
+  background: var(--code-bg, rgba(0,0,0,0.04));
+}
+
+.nav-search-results li:first-child.active a,
+.nav-search-results li:first-child a:hover {
+  background: #3d8c5a;
+  color: #fff;
+}
+
+.nav-search-results li:first-child.active a .result-subtitle,
+.nav-search-results li:first-child a:hover .result-subtitle {
+  color: rgba(255,255,255,0.75);
+}
+
+.result-icon {
+  font-size: 0.85rem;
+  color: var(--secondary, #aaa);
+  flex-shrink: 0;
+  width: 18px;
+  text-align: center;
+}
+
+.result-text {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.result-title {
+  display: block;
+  font-size: 0.88rem;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.result-title mark {
+  background: none;
+  color: #3d8c5a;
+  font-weight: 700;
+}
+
+.nav-search-results li:first-child.active .result-title mark,
+.nav-search-results li:first-child a:hover .result-title mark {
+  color: #c8ffd4;
+}
+
+.result-subtitle {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--secondary, #999);
+  margin-top: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.result-enter {
+  color: var(--secondary, #ccc);
+  font-size: 0.85rem;
+  flex-shrink: 0;
+}
+
+/* ── See all results footer ── */
+.nav-search-footer {
+  display: block;
+  text-align: center;
+  padding: 9px;
+  font-size: 0.82rem;
+  color: var(--secondary, #999);
+  text-decoration: none;
+  border-top: 1px solid var(--border, #f0f0f0);
+  transition: background 0.1s;
+}
+.nav-search-footer:hover {
+  background: var(--code-bg, rgba(0,0,0,0.04));
+  color: var(--primary, #333);
+}
+
+@media (max-width: 768px) { .nav-search { display: none; } }

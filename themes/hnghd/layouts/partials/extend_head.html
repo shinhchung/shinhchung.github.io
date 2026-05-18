@@ -1,0 +1,4 @@
+{{- if ne .Layout "search" }}
+{{- $fusejs := resources.Get "js/fuse.basic.min.js" }}
+<script defer src="{{ $fusejs.RelPermalink }}"></script>
+{{- end }}

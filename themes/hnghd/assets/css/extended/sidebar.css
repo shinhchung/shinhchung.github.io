@@ -1,0 +1,126 @@
+/* ── Two-column layout ── */
+.layout-wrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 var(--gap, 24px);
+  gap: 0;
+}
+
+.layout-wrapper .main {
+  flex: 1;
+  min-width: 0;
+  max-width: var(--main-width, 740px);
+  margin: 0 auto;
+  padding: 36px var(--gap, 24px);
+}
+
+/* ── Sidebar ── */
+.sidebar {
+  width: 240px;
+  min-width: 240px;
+  flex-shrink: 0;
+  padding: 24px 0 40px var(--gap, 24px);
+  position: sticky;
+  top: 60px;
+  max-height: calc(100vh - 70px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-right: 1px solid var(--border);
+  transition: width 0.25s ease, min-width 0.25s ease, opacity 0.25s ease, padding 0.25s ease;
+  scrollbar-width: thin;
+}
+
+.sidebar.collapsed {
+  width: 0;
+  min-width: 0;
+  opacity: 0;
+  padding: 0;
+  pointer-events: none;
+}
+
+body.sidebar-collapsed .layout-wrapper .main {
+  max-width: calc(var(--main-width, 740px) + 240px);
+}
+
+.sidebar-inner {
+  width: 216px;
+}
+
+/* ── Logo link ── */
+.site-logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none !important;
+  opacity: 0.9;
+  transition: opacity 0.15s;
+}
+
+.site-logo-link:hover {
+  opacity: 1;
+}
+
+/* ── Sidebar section heading ── */
+.sidebar-section {
+  margin-bottom: 24px;
+}
+
+.sidebar-section-title {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--secondary);
+  margin: 0 0 6px 0;
+  padding: 0 10px;
+}
+
+.sidebar-section-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.sidebar-section-title a:hover {
+  color: var(--accent);
+}
+
+/* ── Sidebar post list ── */
+.sidebar-posts {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-post {
+  padding: 0;
+}
+
+.sidebar-post a {
+  display: block;
+  padding: 4px 10px;
+  font-size: 0.83rem;
+  color: var(--secondary);
+  text-decoration: none;
+  border-radius: var(--radius);
+  line-height: 1.45;
+  transition: background 0.12s, color 0.12s;
+}
+
+.sidebar-post a:hover {
+  background: var(--accent-muted);
+  color: var(--primary);
+}
+
+.sidebar-post.active a {
+  background: var(--accent-muted);
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* ── Mobile ── */
+@media (max-width: 900px) {
+  .sidebar { display: none; }
+  .sidebar-toggle { display: none; }
+  .layout-wrapper .main { padding: 24px var(--gap, 16px); }
+}

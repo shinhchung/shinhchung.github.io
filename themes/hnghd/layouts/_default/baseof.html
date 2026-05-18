@@ -1,0 +1,143 @@
+{{- if lt hugo.Version "0.146.0" }}
+{{- errorf "=> hugo v0.146.0 or greater is required for hugo-PaperMod to build " }}
+{{- end -}}
+
+<!DOCTYPE html>
+{{- $theme := site.Params.defaultTheme | default "auto" }}
+{{- if eq $theme "dark" }}
+<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}" data-theme="dark">
+{{- else if eq $theme "light" }}
+<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}" data-theme="light">
+{{- else }}
+<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}" data-theme="auto">
+{{- end }}
+
+<head>
+    {{- partial "head.html" . }}
+</head>
+
+{{- if (or (ne .Kind `page` ) (eq .Layout `archives`) (eq .Layout `search`)) }}
+<body class="list" id="top">
+{{- else }}
+<body id="top">
+{{- end }}
+    {{ partialCached "header.html" . .Page -}}
+    <div class="layout-wrapper">
+        {{- partial "sidebar.html" . }}
+        <main class="main">
+            {{- block "main" . }}{{ end }}
+        </main>
+    </div>
+    {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
+
+    <script>
+    (function() {
+      var wrap    = document.getElementById('nav-search');
+      var input   = document.getElementById('nav-search-input');
+      var results = document.getElementById('nav-search-results');
+      var clearBtn= document.getElementById('nav-search-clear');
+      if (!wrap || !input || !results) return;
+
+      var fuse, activeIdx = -1;
+
+      function initFuse(data, attempt) {
+        if (typeof Fuse === 'undefined') {
+          if (attempt < 20) setTimeout(function(){ initFuse(data, attempt+1); }, 100);
+          return;
+        }
+        fuse = new Fuse(data, {
+          distance: 100, threshold: 0.4, ignoreLocation: true,
+          includeMatches: true,
+          keys: ['title', 'permalink', 'summary', 'content']
+        });
+      }
+
+      fetch('/index.json').then(function(r){ return r.json(); }).then(function(d){ initFuse(d, 0); });
+
+      function hl(text, indices) {
+        if (!indices || !indices.length) return escHtml(text);
+        var out = '', last = 0;
+        indices.forEach(function(pair) {
+          out += escHtml(text.slice(last, pair[0]));
+          out += '<mark>' + escHtml(text.slice(pair[0], pair[1]+1)) + '</mark>';
+          last = pair[1]+1;
+        });
+        return out + escHtml(text.slice(last));
+      }
+
+      function escHtml(s) {
+        return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+      }
+
+      function snippet(text, indices) {
+        if (!text) return '';
+        var start = indices && indices[0] ? Math.max(0, indices[0][0]-40) : 0;
+        var end   = indices && indices[0] ? Math.min(text.length, indices[0][1]+60) : 80;
+        var pre   = start > 0 ? '… ' : '';
+        var post  = end < text.length ? ' …' : '';
+        var slice = text.slice(start, end);
+        var shifted = indices ? indices.map(function(p){ return [p[0]-start, p[1]-start]; }) : [];
+        return pre + hl(slice, shifted) + post;
+      }
+
+      function render(q) {
+        activeIdx = -1;
+        if (!fuse || !q) { results.hidden = true; wrap.classList.remove('has-value'); return; }
+        wrap.classList.add('has-value');
+        var hits = fuse.search(q).slice(0, 8);
+        if (!hits.length) { results.innerHTML = '<li><a style="cursor:default;color:var(--secondary)">No results for "'+escHtml(q)+'"</a></li>'; results.hidden = false; return; }
+
+        var html = hits.map(function(r) {
+          var tm = r.matches && r.matches.find(function(m){ return m.key==='title'; });
+          var cm = r.matches && r.matches.find(function(m){ return m.key==='content'||m.key==='summary'; });
+          var titleHtml = tm ? hl(r.item.title, tm.indices) : escHtml(r.item.title);
+          var sub = cm ? snippet(r.item[cm.key], cm.indices) : '';
+          var icon = cm ? '≡' : '#';
+          return '<li><a href="'+r.item.permalink+'">'
+            +'<span class="result-icon">'+icon+'</span>'
+            +'<span class="result-text"><span class="result-title">'+titleHtml+'</span>'
+            +(sub ? '<span class="result-subtitle">'+sub+'</span>' : '')
+            +'</span><span class="result-enter">↵</span></a></li>';
+        }).join('');
+        html += '<a class="nav-search-footer" href="/search/?q='+encodeURIComponent(q)+'">See all results</a>';
+        results.innerHTML = html;
+        results.hidden = false;
+      }
+
+      input.addEventListener('input', function(){ render(this.value.trim()); });
+
+      if (clearBtn) {
+        clearBtn.addEventListener('click', function(){
+          input.value = ''; render(''); wrap.classList.remove('has-value'); input.focus();
+        });
+      }
+
+      // Keyboard navigation
+      document.addEventListener('keydown', function(e) {
+        if ((e.metaKey||e.ctrlKey) && e.key==='k') { e.preventDefault(); input.focus(); return; }
+        if (e.key==='Escape') { results.hidden=true; input.blur(); return; }
+        if (results.hidden) return;
+        var items = results.querySelectorAll('li');
+        if (!items.length) return;
+        if (e.key==='ArrowDown') {
+          e.preventDefault();
+          activeIdx = Math.min(activeIdx+1, items.length-1);
+          items.forEach(function(li,i){ li.classList.toggle('active', i===activeIdx); });
+        } else if (e.key==='ArrowUp') {
+          e.preventDefault();
+          activeIdx = Math.max(activeIdx-1, 0);
+          items.forEach(function(li,i){ li.classList.toggle('active', i===activeIdx); });
+        } else if (e.key==='Enter' && activeIdx>=0) {
+          var a = items[activeIdx].querySelector('a');
+          if (a) a.click();
+        }
+      });
+
+      document.addEventListener('click', function(e){
+        if (!wrap.contains(e.target)) results.hidden = true;
+      });
+    })();
+    </script>
+</body>
+
+</html>
