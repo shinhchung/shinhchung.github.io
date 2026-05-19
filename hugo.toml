@@ -26,8 +26,20 @@ paginate = 10
     apple_touch_icon = "favicon.svg"
 
   [params.homeInfoParams]
-    Title = "Hi, I'm Derek"
-    Content = "Writing about life, tech, food, and the world."
+    Title = "👋 Hi, I'm Derek!"
+    Content = """
+Welcome to my personal digital corner! 🪴 I write about software engineering, hands-on tech, culinary arts, and daily thoughts. 
+
+Here is a quick guide to what you can explore in each section:
+
+*   **✍️ [Blog](/blog/)** — In-depth articles, personal reflections, tech deep-dives, and life experiences.
+*   **📝 [Notes](/notes/)** — Short-form programming snippets, useful code guides, daily reads, and quick thoughts.
+*   **🍳 [Recipes](/recipes/)** — My collection of favorite home-cooked culinary creations, step-by-step recipes, and kitchen diaries.
+*   **📰 [News](/news/)** — Curated tech updates, trending industry news, and interesting articles I discover.
+*   **🔍 [Search](/search/)** & **🗃️ [Archive](/archive/)** — Quickly search or browse all my past posts chronologically.
+
+Feel free to click around, and feel free to connect with me via the social links below!
+"""
 
 [[params.socialIcons]]
   name = "github"
