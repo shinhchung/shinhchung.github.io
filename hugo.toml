@@ -1,4 +1,4 @@
-baseURL = "https://blog.hnghd.com/"
+baseURL = "https://me.hnghd.com/"
 languageCode = "en-us"
 title = "Derek's Blog"
 theme = "hnghd"

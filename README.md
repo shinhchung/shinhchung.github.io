@@ -1,6 +1,6 @@
 # shinhchung.github.io
 
-Personal site at [blog.hnghd.com](https://blog.hnghd.com).
+Personal site at [me.hnghd.com](https://me.hnghd.com).
 
 ## Stack
 
