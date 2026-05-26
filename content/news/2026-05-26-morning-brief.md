@@ -1,109 +1,105 @@
 ---
 layout: post
-title: "油芯幣壓|2026-05-26"
+title: "信心油幣|2026-05-26"
 author: 股神
 date: 2026-05-26
 categories: [News]
 tags: [news, morning-brief, macro, crypto]
 render_with_liquid: false
-description: 聚焦美股假期後重開前由 AI 晶片帶住風險情緒、伊朗相關軍事行動令油價回升但未重返 100 美元、港股復市受中國晶片題材支持，同 crypto 因 ETF 走資與地緣風險繼續偏弱嘅每日晨報。
+description: 聚焦美國消費者信心回軟但股市仍由 AI 同晶片鏈帶動、港股復市受半導體敘事支撐、油價受中東局勢左右，以及 Bitcoin 與 ETF 資金流繼續偏弱嘅每日晨報。
 ---
 
-截至美東 2026 年 5 月 26 日早上、香港時間 2026 年 5 月 26 日晚上，市場主線相當清楚：股票並未完全轉弱，但反彈主要集中喺 AI／晶片鏈；另一邊，中東局勢令油價重新抽高，通脹同債息壓力未真正解除；crypto 則明顯未能跟上風險資產，反而繼續受 ETF 走資同地緣風險拖住。換句話講，今日唔係全面 risk-on，而係「股票有選擇地強、宏觀風險仲未走、幣圈仍然偏弱」。
+截至美東 2026 年 5 月 26 日上午，今日市場氣氛唔算全面 risk-on，而係一種幾典型嘅「股票有選擇地強、宏觀風險未散、crypto 繼續落後」。美國消費者信心輕微回落，反映高油價同通脹壓力仍然影響實體經濟感受；但另一邊，AI 同晶片鏈仍然托住美股風險胃納。港股方面，復市後最受追捧嘅仍然係中國半導體敘事。至於 crypto，Bitcoin 同 Ethereum 即使未有再急瀉，都仍然明顯跑輸股票，而且 ETF 資金面未見止血。
 
 ## 美國重點
 
-### 美股休市一日後，期貨重開仍偏強，但帶動力量主要來自 AI 晶片股
-Reuters 5 月 26 日報道指，美股指數期貨喺周二上升，市場一方面仍然押注美伊談判未完全破局，另一方面繼續追捧 AI 晶片鏈；報道提到 Marvell Technology 盤前升約 5.7%，Micron 同 Intel 各升約 2%，而市場對標普 500 成份股第一季盈利增長預期已升到 29%，高過一個月前估計嘅 16.1%。
+### 美國消費者信心 5 月回落，代表高油價同通脹壓力仍然傳導到家庭層面
+AP 同 The Conference Board 顯示，5 月消費者信心指數由 4 月向上修訂後嘅 93.8，輕微回落至 93.1；Reuters 亦指出，通脹憂慮同中東局勢相關能源壓力係拖累因素之一。
 
-點解重要：已確認資訊係美股風險胃納並未全面撤退，但領漲仍然集中喺有盈利驗證同 AI 資本開支支撐嘅板塊。呢個對美股屬中性偏利好，但亦代表市場闊度未算好寬。
+點解重要：已確認資訊係美國家庭情緒未有跟住股市創高而同步改善。對市場屬中性偏利淡，因為呢類數據會提醒交易員，現時股票強勢未必代表實體需求同民間通脹感受已經轉好。
 
-### 伊朗相關軍事行動令油價回升，市場重新聚焦通脹與供應風險
-Reuters 5 月 26 日另一篇市場報道指出，美軍喺伊朗南部採取新一輪所謂自衛式打擊後，市場對短期和平協議嘅樂觀情緒降溫；Brent 原油期貨亞洲早段一度升逾 1% 至每桶 97.32 美元，歐洲時段升幅擴大至約 2.4%、報 98.39 美元，雖然仍低於 100 美元，但已足以令市場重新憂慮能源價格會否再推高通脹。
+### 美股即市仍然偏強，資金繼續集中喺大型指數同 AI 鏈
+截至大約美東上午 11 點半前後，Alpaca 數據顯示 SPY 約報 750.34，較上個交易日收市高約 0.6%；QQQ 約報 728.88，較上個交易日升約 1.6%。Reuters 同日報道亦指，美股期貨再創新高附近，主要受中東談判仍有空間同 AI／晶片情緒支撐。
 
-點解重要：已確認資訊係油價雖未失控，但未算真正解除警報。只要能源價格再抽升，市場很快會由「AI 撐住股票」重新轉向「通脹、債息同高利率更耐」呢條主線。
+點解重要：已確認資訊係資金未有大幅撤離股票，而係繼續偏向高流動性、盈利能見度較高嘅大型科技與成長股。呢個對大市屬中性偏利好，但同時反映升勢仍然未算好闊。
 
-### 本週真正定價權，仍然喺數據同債市手上
-紐約證交所顯示，美股於 2026 年 5 月 25 日因 Memorial Day 休市；Conference Board 顯示 2026 年 5 月 26 日上午 10 時（美東）將公布最新消費者信心指數；美國經濟分析局（BEA）則顯示，2026 年 5 月 28 日上午 8 時 30 分（美東）會同日公布第一季 GDP 第二次估算，以及 4 月 Personal Income and Outlays，當中包括市場最關注嘅 PCE 通脹數據。
+### 晶片股仍然係市場主線，但表現開始分化
+Reuters 指美股今日情緒繼續受 AI 晶片鏈帶動；Alpaca 即市快照顯示，SMCI 約報 36.43，較上個交易日升約 2.4%，但 NVDA 約報 214.44，較上個交易日微跌約 0.4%。
 
-點解重要：已確認資訊係本週剩低時間，市場要面對嘅唔只係 headline，而係硬數據。若消費者信心、GDP 修正同 PCE 再次偏熱，長債息壓力有機會蓋過晶片股強勢。
+點解重要：已確認資訊係資金仍然留喺 AI 基建同伺服器鏈，但唔係所有龍頭都齊升。高概率推斷係市場而家更重視「下一輪邊條 AI 鏈仲有估值空間」，而唔再係單純無差別追 NVIDIA 一隻。
 
 ## 香港重點
 
-### 港股復市後偏穩，晶片題材暫時蓋過資金監管憂慮
-Reuters 5 月 26 日報道指，香港股市喺佛誕假期後復市上升，主因係市場對中國晶片題材轉趨興奮，暫時抵消咗北京打擊非法跨境證券交易嘅憂慮；報道提到中國證券股份喺香港升 4%、上海升 6%。
+### 港股復市後，半導體敘事暫時蓋過監管雜音
+Reuters 5 月 26 日報道指，香港股市喺佛誕假期後復市靠穩，市場對中國晶片題材嘅興趣，暫時抵消咗北京打擊非法跨境證券交易所帶來嘅憂慮。
 
-點解重要：已確認資訊係今日港股最強主線唔係傳統地產或金融，而係科技同半導體相關情緒修復。對港股屬中性偏利好，但屬主題式支持，多過全面基本面改善。
+點解重要：已確認資訊係今日港股最受市場關注嘅主線仍然係科技與半導體，而唔係地產或者傳統金融。對港股屬中性偏利好，但更多係主題式支持，而唔係全面基本面改善。
 
-### Huawei 再放晶片路線圖，推升中國半導體敘事
-Reuters 5 月 25 日報道指，Huawei 表示即使面對美國制裁，仍有望喺 2031 年前把高端晶片設計做到相當於 1.4 納米製程嘅晶體管密度，市場因而重新炒作中國本土晶片替代與供應鏈自主化主題。
+### 中國晶片自主化敘事，仍然係港股科技板塊最重要情緒催化之一
+Reuters 早前報道 Huawei 提出新晶片發展路線後，市場持續炒作中國本土半導體替代、設備、EDA 同代工鏈自主化主題。今日港股對半導體題材仍有承接，反映呢條敘事未散。
 
-點解重要：已確認資訊係消息本身主要影響市場敘事同板塊情緒，對港股中資晶片、設備、EDA、代工鏈屬偏利好 read-through；但屬於中長線願景，唔等於短期盈利已經落袋。
+點解重要：已確認資訊係市場資金仍然願意為中國科技自主化題材畀溢價。高概率推斷係只要外圍利率同油價唔再急升，港股科技資金短線仍會優先留喺晶片鏈，而唔係全面擴散到所有中資股。
 
-### 內地打擊非法跨境交易仍然係中期流動性變數
-同一篇 Reuters 報道提到，監管部門要求兩年內清理非法跨境交易帳戶，Kaiyuan Securities 估計可能牽涉多達 2,940 億港元資產。今日港股能夠先升，反映短線交易員更在意晶片題材；但對依賴內地資金南下情緒嘅券商同部分高換手題材股，呢件事未完全消化。
+### 今日暫未有可靠來源確認香港新增重大官方市場催化
+截至美東 2026 年 5 月 26 日上午，暫未有可靠來源確認 HKMA、SFC 或 HKEX 今日有足以即日改變港股或本地 crypto 定價邏輯嘅新重大公告。
 
-點解重要：已確認資訊係消息未有即日壓垮大市；高概率推斷則係資金之後可能更偏向合規渠道同流動性較高嘅大型股，而唔係高波動細價主題。
+點解重要：當本地政策面冇新變化，港股短線就會更直接受外圍油價、美元利率、A 股科技情緒同南下資金偏好帶動。
 
 ## 股市重點
 
 ### 目前較似「選擇性 risk-on」，唔係全面追風險
-可確認事實：Reuters 指亞洲區股票表現分化但 MSCI 亞太（除日本）指數一度升約 0.8%，港股復市向上，美股期貨靠晶片股帶動；同時，油價回升，歐洲股市偏弱，crypto 未見同步反彈。
+可確認事實：美股 ETF 同科技指數仍然偏強，港股由半導體題材支撐；但同時，美國消費者信心回落，油價仍受中東局勢牽動，crypto 亦未有同步轉強。
 
-點解重要：呢種跨資產表現通常代表資金仍願意留喺盈利能見度高、流動性好、受 AI 資本開支支持嘅龍頭板塊，但未願意大幅加倉所有高 beta 資產。
+點解重要：呢種跨資產組合通常代表資金願意追逐具盈利支撐、流動性較高、受 AI 資本開支托住嘅資產，但未肯大幅加倉所有高 beta 標的。
 
-### 資金流向判讀：偏向加倉晶片與大型科技，多過加倉廣泛風險資產
-可確認事實：Marvell、Micron、Intel 等晶片股盤前受捧；香港亦係半導體敘事跑出；但油價同地緣風險仍未消失，BTC 反而跌穿 7.7 萬美元。
+### 資金流向判讀：偏向加倉 AI 基建、晶片同大型科技，多過全面加倉高風險資產
+可確認事實：QQQ 明顯跑贏 SPY；SMCI 表現強過 NVDA；港股最有承接嘅都係半導體相關主題；Bitcoin 同 Ethereum 則繼續偏弱。
 
-高概率推斷：而家機構資金較似集中喺 AI 基建、半導體、現金流較穩定嘅大型科技股，多過全面回流細價股、純概念股或者高波動資產。較似板塊輪動式增配，未足以確認係全面 risk-on。
+高概率推斷：而家大資金較似集中喺 AI 伺服器、網絡、晶片設備、現金流較穩定嘅大型科技股，多過全面回流細價股、純概念股或者 crypto。較似板塊輪動式增配，未足以確認係廣泛 risk-on。
 
-可確認 / 不可確認部分：公開資料可以確認指數、油價、ETF 流向、企業消息與官方發布時間；但無法直接確認 hedge fund 真實長短倉、淨槓桿或現金比例。
+可確認 / 不可確認部分：公開資料可以確認價格快照、官方數據、Reuters 報道同市場日內表現；但無法直接確認 hedge fund 真實長短倉、淨槓桿或者現金比例。
 
 ## Crypto 重點
 
-### Bitcoin 跌穿 77,000 美元，明顯未跟上股票風險情緒
-Reuters 5 月 26 日 crypto 市場報道指，Bitcoin 跌穿 77,000 美元，主因係美國再有針對伊朗目標嘅打擊行動，削弱市場對短期和平協議嘅預期，同時 ETF 資金流轉弱亦增加賣壓；Ethereum 同日亦跌約 0.3%，報約 2,101.75 美元。
+### Bitcoin 失守 7.7 萬美元附近，Ethereum 跌返 2,100 美元邊
+Alpaca 即市快照顯示，BTC/USD 最新約 76,634 美元，較前一日收市回落約 0.8%；ETH/USD 約 2,099 美元，較前一日跌約 0.6%。Reuters 同日亦報道，Bitcoin 再次跌穿 77,000 美元，市場仍然受中東局勢不確定同 ETF 資金流轉弱拖累。
 
-點解重要：已確認資訊係 crypto 仍然被視為較高波動、較先被減倉嘅資產。即使股票期貨能靠 AI 題材企穩，BTC 同 ETH 都未見同步轉強。
+點解重要：已確認資訊係 crypto 未能跟上股票風險情緒。當股票仲可以靠 AI 主線撐住，但 BTC 同 ETH 仍然走弱，通常代表市場對高波動、零孳息資產仍然較保守。
 
-### CoinShares 數據顯示 ETP 走資加劇，機構資金仍未止血
-The Block 5 月 26 日引述 CoinShares 指，上周全球 crypto 投資產品淨流出約 14.7 億美元，係連續第二周錄得大額走資，亦係 2026 年第三大單周流出；單計美國現貨 Bitcoin ETF，同期流出約 12.6 億美元，屬今年以來最差周度贖回之一。
+### ETF 資金面仍然係 crypto 最明顯逆風
+The Block 5 月 26 日引述 CoinShares 指，上周全球 crypto 投資產品淨流出約 14.7 億美元，係連續第二周大額走資；當中美國現貨 Bitcoin ETF 單周流出約 12.6 億美元，係今年最差周度流出之一。
 
-點解重要：已確認資訊係 crypto 面對嘅唔只係 headline 壓力，而係資金面真實轉弱。當 ETF 呢個最直接嘅機構增量渠道轉為持續贖回，BTC 會更難獨立跑贏宏觀逆風。
+點解重要：已確認資訊係 crypto 面對嘅唔止係 headline，而係真實資金面收縮。當最主要機構增量渠道之一持續被贖回，BTC 即使技術上有反彈，都較難形成持久升勢。
 
-### 今日暫未有可靠來源確認新的美國或香港 crypto 監管催化
-截至美東 2026 年 5 月 26 日早上，暫未有可靠來源確認美國主要加密法案完成新一輪關鍵表決，亦未見香港新增穩定幣發牌或其他足以即日改變定價嘅官方公告。
+### 監管面今日未見新一輪關鍵催化
+截至美東 2026 年 5 月 26 日上午，暫未有可靠來源確認美國主要加密法案完成新一輪關鍵表決，亦未見香港新增穩定幣發牌或其他即日重大 crypto 官方公告。另一方面，Reuters 上周關於歐洲央行反對放寬 euro stablecoin 規則嘅消息，仍然提醒市場全球穩定幣監管未必會一路向鬆。
 
-點解重要：當政策面冇新催化，crypto 短線就更容易直接跟 ETF 流向、美元流動性、油價同整體風險偏好走。
+點解重要：當政策面冇新利好，crypto 短線更容易直接跟 ETF 流向、美元流動性、油價同整體風險偏好走。
 
 ## 今日要留意的事件
 
-### 2026 年 5 月 26 日上午 10:00（美東）：Conference Board 消費者信心
-官方頁面顯示，The Conference Board 會喺 2026 年 5 月 26 日美東上午 10 時公布最新消費者信心。若數據弱過預期，市場會重新擔心高油價開始傳導到實體需求；若好過預期，則有機會短線支撐風險資產，但亦可能令減息預期進一步延後。
+### 2026 年 5 月 27 日：Marvell 業績同 AI 網絡鏈指引
+Marvell 即將公布業績。由於市場依家唔止睇 GPU，而係會連埋網絡、交換器、客製化晶片同伺服器鏈一齊判斷 AI 資本開支溫度，所以 Marvell 指引會係未來 24 至 48 小時重要觀察位。
 
-### 2026 年 5 月 27 日下午 4:45（美東）：Marvell 業績電話會議
-Marvell 投資者關係頁面顯示，Q1 2027 業績電話會議定於 2026 年 5 月 27 日下午 1:45（PDT），即美東下午 4:45。由於 Marvell 屬 AI 網絡與客製化晶片鏈核心公司，市場會用佢做下一個 AI 需求溫度計。
+### 2026 年 5 月 28 日上午 8:30（美東）：GDP 第二次估算 + 4 月 PCE
+BEA 發布時間表顯示，2026 年 5 月 28 日會同日公布第一季 GDP 第二次估算，同埋 4 月 Personal Income and Outlays。呢組數據會直接影響市場對通脹黏性、實質需求同聯儲局路徑嘅再定價。
 
-### 2026 年 5 月 28 日上午 8:30（美東）：GDP 第二次估算 + 4 月 PCE 同日公布
-BEA 發布時間表顯示，2026 年 5 月 28 日美東上午 8:30 將同時公布第一季 GDP 第二次估算，以及 4 月 Personal Income and Outlays。呢組數據將直接影響市場對通脹黏性、經濟韌性同聯儲局路徑嘅定價。
-
-### 未來 24 至 72 小時：兩個最實際觀察位
-第一，Brent 會唔會重新企穩 100 美元樓上，如果係，股票估值壓力會重新擴大。第二，Bitcoin ETF 流向有冇止血；若仍然持續流出，crypto 好難靠單一 headline 扭轉弱勢。
+### 未來 24 至 72 小時：兩個跨資產觀察位
+第一，油價會唔會因中東局勢再向上抽，重新推高通脹與債息壓力；第二，Bitcoin ETF 流向有冇止血。如果呢兩項都冇改善，股票就算短線守得住，升勢都未必容易擴闊到 crypto 同更高 beta 資產。
 
 ## 市場情緒判斷
 
-目前判斷係「股票偏暖、但宏觀同 crypto 仍然偏緊」。已確認資訊支持 AI／晶片鏈仍然獲資金偏好，美股期貨同港股相關板塊都有承接；但同時，油價重新回升、地緣風險未散、PCE 同 GDP 仲未出、Bitcoin 又未見止跌，說明市場唔係無差別追風險。高概率推斷係資金暫時會繼續偏向大型科技、半導體、AI 基建與高流動性資產；對 crypto、細價高 beta 同政策敏感題材則仍然保守。
+目前判斷係「股票偏暖，但宏觀與 crypto 仍然偏緊」。已確認資訊支持 AI／晶片鏈繼續獲資金偏好，美股科技指數同港股半導體題材都有承接；但同時，消費者信心回軟、油價變數未散、Bitcoin 未見止跌、ETF 仍然走資，說明市場唔係無差別追風險。高概率推斷係資金短線仍會偏向大型科技、AI 基建、半導體與高流動性資產；對 crypto、細價高 beta 同政策敏感題材則繼續較審慎。
 
 ## 資料來源
 
-- Reuters / Investing.com: https://au.investing.com/news/stock-market-news/wall-st-futures-gain-on-usiran-peace-talk-hopes-4454748
-- Reuters / Investing.com: https://au.investing.com/news/stock-market-news/oil-rises-stocks-mixed-as-new-us-strikes-dampen-peace-deal-optimism-4454372
-- Reuters / Investing.com: https://au.investing.com/news/economy-news/european-stocks-subdued-oil-rises-as-fresh-us-strikes-on-iran-4454557
+- AP: https://apnews.com/article/4f681cecfa63fe251f5bb12bb4b949c6
+- The Conference Board: https://www.conference-board.org/topics/consumer-confidence/press
+- Reuters / MarketScreener: https://www.marketscreener.com/news/us-consumer-confidence-ebbs-in-may-as-inflation-worries-mount-ce7f5addd08ef722
+- Reuters / MarketScreener: https://uk.marketscreener.com/news/wall-st-futures-gain-on-usiran-peace-talk-hopes-ce7f5adddf8bf623
 - Reuters / Fidelity: https://www.fidelity.com/news/article/default/202605252338RTRSNEWSCOMBINED_L1N423015_1
-- Reuters / Investing.com: https://www.investing.com/news/economy-news/huawei-proposes-new-path-for-chip-development-amid-us-sanctions-4708270
+- HKMA Press Releases: https://www.hkma.gov.hk/eng/news-and-media/press-releases/money/
+- Alpaca market snapshots: BTC/USD, ETH/USD, SPY, QQQ, NVDA, SMCI as of 2026-05-26 around 15:25 to 15:27 UTC
 - Reuters / Investing.com: https://uk.investing.com/news/cryptocurrency-news/bitcoin-dips-below-77k-on-iran-peace-uncertainty-etf-outflows-4697178
-- The Block / CoinShares: https://www.theblock.co/post/402528/global-crypto-etp-outflows-deepen-to-1-5b-as-bitcoin-products-post-worst-weekly-redemptions-of-2026-coinshares
-- The Conference Board: https://www.conference-board.org/topics/consumer-confidence/index.cfm?mod=article_inline
-- Marvell Investor Relations: https://investor.marvell.com/?src=main
+- The Block / CoinShares: https://www.theblock.co/post/402528/global-crypto-etp-outflows-deepen-to-1-5b-as-bitcoin-products-post-worst-weekly-redemption-of-2026-coinshares
 - BEA: https://www.bea.gov/news/schedule
-- NYSE: https://www.nyse.com/trade/hours-calendars
