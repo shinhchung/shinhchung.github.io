@@ -82,7 +82,7 @@ Alpaca crypto snapshot 顯示，截至 2026-07-12 約 10:15 UTC，Bitcoin 約 63
 
 以下只係事件追蹤名單，唔係買賣建議：
 
-- **AI/半導體鏈**：Nvidia（NVDA）、SK Hynix（SKHYV，周一預期轉用 SKHY）、Micron（MU）、AMD（AMD）、Broadcom（AVGO）、TSMC（TSM）。觀察 AI 記憶體需求係咪繼續壓過估值同油息壓力。
+- **AI/半導體鏈**：Nvidia（NVDA）、SK Hynix（SKHYV）、Micron（MU）、AMD（AMD）、Broadcom（AVGO）、TSMC（TSM）。觀察 AI 記憶體需求係咪繼續壓過估值同油息壓力。
 - **美股銀行與利率敏感股**：JPMorgan（JPM）、Goldman Sachs（GS）、Bank of America（BAC）、Citigroup（C）、Wells Fargo（WFC）。業績會反映信貸、交易同利率環境。
 - **香港科技平台股**：阿里巴巴（9988）、京東（9618）、百度（9888）、騰訊（0700）。重點係上周反彈後能否守住資金流。
 - **香港金融基建與人民幣主題**：HKEX（0388）、主要本地及中資銀行、券商、Bond Connect / FIC / 離岸人民幣相關基建。觀察政策落地節奏多過即日炒作。
