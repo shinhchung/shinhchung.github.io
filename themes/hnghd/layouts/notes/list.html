@@ -13,21 +13,24 @@
     {{- $icon := "📁" }}
     {{- if eq $folder "Programming" }}{{- $icon = "💻" }}{{- end }}
     {{- if eq $folder "Language"    }}{{- $icon = "🌐" }}{{- end }}
+    {{- if eq $folder "English Learning" }}{{- $icon = "📖" }}{{- end }}
     {{- if eq $folder "Design"      }}{{- $icon = "🎨" }}{{- end }}
     {{- if eq $folder "Life"        }}{{- $icon = "📝" }}{{- end }}
 
-    <div class="notes-folder" id="folder-{{ $folder | urlize }}">
-      <button class="folder-header" onclick="toggleFolder('folder-{{ $folder | urlize }}')">
+    <div class="notes-folder open" id="folder-{{ $folder | urlize }}">
+      <button class="folder-header" type="button" aria-expanded="true" aria-controls="files-{{ $folder | urlize }}" onclick="toggleFolder('folder-{{ $folder | urlize }}')">
         <span class="folder-arrow">▶</span>
         <span class="folder-icon-open">📂</span>
         <span class="folder-icon-closed">{{ $icon }}</span>
         <span class="folder-name">{{ $folder }}</span>
         <span class="folder-count">{{ len .Pages }}</span>
       </button>
-      <ul class="folder-files">
-        {{- range .Pages.ByTitle }}
+      <ul class="folder-files" id="files-{{ $folder | urlize }}">
+        {{- $pages := .Pages.ByTitle }}
+        {{- if eq $folder "English Learning" }}{{- $pages = .Pages.ByDate.Reverse }}{{- end }}
+        {{- range $pages }}
         <li class="folder-file">
-          <a href="{{ .Permalink }}">
+          <a href="{{ .RelPermalink }}">
             <span class="file-icon">📄</span>
             <span class="file-name">{{ .Title }}</span>
             <span class="file-date">{{ .Date.Format "2006-01-02" }}</span>
@@ -43,14 +46,10 @@
 <script>
 function toggleFolder(id) {
   var el = document.getElementById(id);
-  el.classList.toggle('open');
+  var open = el.classList.toggle('open');
+  el.querySelector('.folder-header').setAttribute('aria-expanded', String(open));
+  el.querySelector('.folder-files').hidden = !open;
 }
-// Open all folders by default
-document.addEventListener('DOMContentLoaded', function() {
-  document.querySelectorAll('.notes-folder').forEach(function(f) {
-    f.classList.add('open');
-  });
-});
 </script>
 
 {{- end }}

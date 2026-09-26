@@ -79,13 +79,6 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.25s ease;
-}
-
-.notes-folder.open .folder-files {
-  max-height: 1000px;
 }
 
 .folder-file a {
@@ -113,13 +106,24 @@
 .file-name {
   flex: 1;
   min-width: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  overflow-wrap: anywhere;
 }
 
 .file-date {
   font-size: 0.75rem;
   color: var(--secondary);
   flex-shrink: 0;
+}
+
+@media (max-width: 520px) {
+  .folder-file a {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 3px 10px;
+    padding-left: 20px;
+  }
+
+  .file-date {
+    grid-column: 2;
+  }
 }
