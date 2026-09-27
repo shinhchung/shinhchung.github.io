@@ -31,7 +31,7 @@ date: 2026-09-27
 
 ### 2.3 香港：恒指周五回落，政策基建屬中長線利好
 
-發生咩事：RTHK 報道，恒生指數周五跌 251 點或 1%，收 24,510，成交 HK$102.2 億；恒生科技指數跌 1.1%，國企指數跌 1.2%。Reuters via MarketScreener 亦指，港股喺假期前淡靜成交中下跌，投資者仍關注 Trump-Xi 峰會後續細節。
+發生咩事：RTHK 報道，恒生指數周五跌 251 點或 1%，收 24,510，成交約 1,022 億港元；恒生科技指數跌 1.1%，國企指數跌 1.2%。Reuters via MarketScreener 亦指，港股喺假期前淡靜成交中下跌，投資者仍關注 Trump-Xi 峰會後續細節。
 
 政策同市場基建方面，HKEX 9 月 25 日宣布，旗下 HKCC 同 SEOCH 計劃自 2026 年 11 月起接受經 Northbound Bond Connect 持有嘅中國國債、政策性銀行債，以及離岸財政部債作為合資格非現金抵押品，用於覆蓋保證金要求，仍待監管批准。HKEX 亦已於 9 月 21 日就第二階段上市機制競爭力檢討發表諮詢文件，諮詢期至 2026 年 11 月 30 日。SFC 9 月 23 日公布戰略行動計劃，配合香港《第一個五年規劃》和 2026 年《施政報告》推動資本市場發展。
 
@@ -99,6 +99,7 @@ date: 2026-09-27
 - SFC：SFC unveils Strategic Action Plan to support Hong Kong’s First Five-Year Plan and Policy Address，2026-09-23。https://apps.sfc.hk/edistributionWeb/gateway/EN/news-and-announcements/news/doc?refNo=26PR148
 - The Block：Bitcoin ETFs turn positive for 2026 with $2.4 billion weekly inflow，2026-09-26。https://www.theblock.co/news/markets/2026-09-26-bitcoin-etfs-turn-positive-for-2026-with-2-4-billion-weekly-inflow-their-largest-since-october-416944
 - CoinDesk：Crypto exchange Bitget says $352 million affected in a hack, claims user funds are safe，2026-09-24。https://www.coindesk.com/markets/2026/09/24/crypto-exchange-bitget-loses-usd352-million-in-hack-claims-user-funds-are-safe
+- Bitget：[SECURITY NOTICE] Bitget Hot Wallet Incident — September 24, 2026。https://www.bitgetapp.com/support/articles/12560603896024
 - Bitget：Bitget to Resume Withdrawals in Phases，2026-09-26。https://www.bitget.com/support/articles/12560603896110
 - Federal Reserve：Federal Reserve Board requests public comment on two proposals related to stablecoin issuers under the GENIUS Act，2026-09-24。https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm
 - Alpaca market data snapshots：SPY / QQQ / DIA / BTC / ETH，retrieved 2026-09-27 around 10:10 UTC。
