@@ -5,7 +5,7 @@ slug: "english-bus-everyday-expressions"
 folder: "English Learning"
 tags: ["english", "learning"]
 source_path: "HH-vault/2026-09-15.md"
-source_revision: "575817ec8d2a93254ec15e9108512cbd62badbeb"
+source_revision: "4258b38e3e38a4aa1ca26317854066d72ad5ac89"
 ---
 
 # 2026-09-15
@@ -35,4 +35,4 @@ source_revision: "575817ec8d2a93254ec15e9108512cbd62badbeb"
 
 ---
 
-[HH-vault 原始筆記（需要 GitHub 存取權限）](https://github.com/shinhchung/Obsidian/blob/575817ec8d2a93254ec15e9108512cbd62badbeb/HH-vault/2026-09-15.md)
+[HH-vault 原始筆記（需要 GitHub 存取權限）](https://github.com/shinhchung/Obsidian/blob/4258b38e3e38a4aa1ca26317854066d72ad5ac89/HH-vault/2026-09-15.md)

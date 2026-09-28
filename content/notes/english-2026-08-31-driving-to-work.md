@@ -5,7 +5,7 @@ slug: "english-driving-to-work"
 folder: "English Learning"
 tags: ["english", "learning"]
 source_path: "HH-vault/2026-08-31 commute english practice.md"
-source_revision: "575817ec8d2a93254ec15e9108512cbd62badbeb"
+source_revision: "b46ded35c395e42206ab2aaf5788ba86a012f3ac"
 ---
 
 # 2026-08-31
@@ -41,4 +41,4 @@ source_revision: "575817ec8d2a93254ec15e9108512cbd62badbeb"
 
 ---
 
-[HH-vault 原始筆記（需要 GitHub 存取權限）](https://github.com/shinhchung/Obsidian/blob/575817ec8d2a93254ec15e9108512cbd62badbeb/HH-vault/2026-08-31%20commute%20english%20practice.md)
+[HH-vault 原始筆記（需要 GitHub 存取權限）](https://github.com/shinhchung/Obsidian/blob/b46ded35c395e42206ab2aaf5788ba86a012f3ac/HH-vault/2026-08-31%20commute%20english%20practice.md)

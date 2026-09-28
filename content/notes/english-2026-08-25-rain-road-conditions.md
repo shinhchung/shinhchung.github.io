@@ -5,7 +5,7 @@ slug: "english-rain-road-conditions"
 folder: "English Learning"
 tags: ["english", "learning"]
 source_path: "HH-vault/2026-08-25 driving english rain and road conditions.md"
-source_revision: "575817ec8d2a93254ec15e9108512cbd62badbeb"
+source_revision: "b46ded35c395e42206ab2aaf5788ba86a012f3ac"
 ---
 
 ## Driving English Practice — Rain & Road Conditions
@@ -34,4 +34,4 @@ source_revision: "575817ec8d2a93254ec15e9108512cbd62badbeb"
 
 ---
 
-[HH-vault 原始筆記（需要 GitHub 存取權限）](https://github.com/shinhchung/Obsidian/blob/575817ec8d2a93254ec15e9108512cbd62badbeb/HH-vault/2026-08-25%20driving%20english%20rain%20and%20road%20conditions.md)
+[HH-vault 原始筆記（需要 GitHub 存取權限）](https://github.com/shinhchung/Obsidian/blob/b46ded35c395e42206ab2aaf5788ba86a012f3ac/HH-vault/2026-08-25%20driving%20english%20rain%20and%20road%20conditions.md)

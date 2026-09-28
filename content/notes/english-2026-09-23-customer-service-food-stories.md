@@ -5,7 +5,7 @@ slug: "english-customer-service-food-stories"
 folder: "English Learning"
 tags: ["english", "learning"]
 source_path: "HH-vault/2026-09-23.md"
-source_revision: "575817ec8d2a93254ec15e9108512cbd62badbeb"
+source_revision: "db9e5ac9b3c4e106a8c656b030ab9ed36675971e"
 ---
 
 # 2026-09-23 Practiced customer service and food ordering English
@@ -126,4 +126,4 @@ If the employee confirms the order:
 
 ---
 
-[HH-vault 原始筆記（需要 GitHub 存取權限）](https://github.com/shinhchung/Obsidian/blob/575817ec8d2a93254ec15e9108512cbd62badbeb/HH-vault/2026-09-23.md)
+[HH-vault 原始筆記（需要 GitHub 存取權限）](https://github.com/shinhchung/Obsidian/blob/db9e5ac9b3c4e106a8c656b030ab9ed36675971e/HH-vault/2026-09-23.md)

@@ -5,7 +5,7 @@ slug: "english-funny-story-locked-out"
 folder: "English Learning"
 tags: ["english", "learning"]
 source_path: "HH-vault/2026-09-19.md"
-source_revision: "575817ec8d2a93254ec15e9108512cbd62badbeb"
+source_revision: "b2ee15a51f56be07d1344b32736800aa80c63f64"
 ---
 
 # 2026-09-19
@@ -48,4 +48,4 @@ A woman went outside her apartment/building to pick up a package, but she forgot
 
 ---
 
-[HH-vault 原始筆記（需要 GitHub 存取權限）](https://github.com/shinhchung/Obsidian/blob/575817ec8d2a93254ec15e9108512cbd62badbeb/HH-vault/2026-09-19.md)
+[HH-vault 原始筆記（需要 GitHub 存取權限）](https://github.com/shinhchung/Obsidian/blob/b2ee15a51f56be07d1344b32736800aa80c63f64/HH-vault/2026-09-19.md)

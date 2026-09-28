@@ -5,7 +5,7 @@ slug: "english-driving-vocabulary-listening"
 folder: "English Learning"
 tags: ["english", "learning"]
 source_path: "HH-vault/2026-09-18.md"
-source_revision: "575817ec8d2a93254ec15e9108512cbd62badbeb"
+source_revision: "900a4a86196b101776d30b8576b489f4c3bfecd1"
 ---
 
 # 2026-09-18 — Commute English: driving & vocabulary
@@ -38,4 +38,4 @@ source_revision: "575817ec8d2a93254ec15e9108512cbd62badbeb"
 
 ---
 
-[HH-vault 原始筆記（需要 GitHub 存取權限）](https://github.com/shinhchung/Obsidian/blob/575817ec8d2a93254ec15e9108512cbd62badbeb/HH-vault/2026-09-18.md)
+[HH-vault 原始筆記（需要 GitHub 存取權限）](https://github.com/shinhchung/Obsidian/blob/900a4a86196b101776d30b8576b489f4c3bfecd1/HH-vault/2026-09-18.md)
