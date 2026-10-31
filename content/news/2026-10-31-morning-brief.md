@@ -101,4 +101,4 @@ ISM 將於美東時間 10:00 公布 10 月製造業 PMI。數據會影響市場�
 - [Farside Investors：Ethereum ETF 日度資金流](https://farside.co.uk/eth/)
 - [Farside Investors：Solana ETF 日度資金流](https://farside.co.uk/sol/)
 - [ISM：2026 年 PMI 發布日程](https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/)
-- Alpaca：SPY／QQQ／DIA、NVDA／INTC／AMZN／COIN／MSTR 收市快照，以及 BTC/USD、ETH/USD、SOL/USD 快照，擷取於 2026-10-31 約 06:10 EDT
+- Alpaca：SPY／QQQ／DIA、NVDA／GOOGL／MSFT／AMZN／AVGO 收市快照，以及 BTC/USD、ETH/USD、SOL/USD 快照，擷取於 2026-10-31 約 06:10 EDT
