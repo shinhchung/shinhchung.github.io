@@ -7,7 +7,7 @@ paginate = 10
 
 [params]
   author = "Derek"
-  description = "Writing, notes, recipes, and daily reads."
+  description = "Writing, notes, projects, and daily reads."
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowShareButtons = false
@@ -34,7 +34,6 @@ Here is a quick guide to what you can explore in each section:
 
 *   **✍️ [Blog](/blog/)** — In-depth articles, personal reflections, tech deep-dives, and life experiences.
 *   **📝 [Notes](/notes/)** — Short-form programming snippets, useful code guides, daily reads, and quick thoughts.
-*   **🍳 [Recipes](/recipes/)** — My collection of favorite home-cooked culinary creations, step-by-step recipes, and kitchen diaries.
 *   **📰 [News](/news/)** — Curated tech updates, trending industry news, and interesting articles I discover.
 *   **[Project](/tags/project/)** — Selected projects I’ve built and shared.
 *   **🔍 [Search](/search/)** & **🗃️ [Archive](/archive/)** — Quickly search or browse all my past posts chronologically.
@@ -76,10 +75,6 @@ Feel free to click around, and feel free to connect with me via the social links
     url = "/notes/"
     weight = 2
   [[menu.main]]
-    name = "Recipes"
-    url = "/recipes/"
-    weight = 3
-  [[menu.main]]
     name = "News"
     url = "/news/"
     weight = 4
@@ -104,5 +99,4 @@ Feel free to click around, and feel free to connect with me via the social links
 [permalinks]
   blog = "/blog/:slug/"
   notes = "/notes/:slug/"
-  recipes = "/recipes/:slug/"
   news = "/news/:slug/"

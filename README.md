@@ -14,7 +14,6 @@ Personal site at [me.hnghd.com](https://me.hnghd.com).
 |---------|------|-------------|
 | Blog | `content/blog/` | Writing on life, tech, and the world |
 | Notes | `content/notes/` | Short-form notes |
-| Recipes | `content/recipes/` | Food recipes |
 | News | `content/news/` | 股神晨報 morning briefs |
 
 ## Local development
