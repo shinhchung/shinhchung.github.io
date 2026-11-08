@@ -1,0 +1,26 @@
+{{- $pages := .RegularPages.ByDate.Reverse }}
+{{- $active := $.Current }}
+{{- if and (eq $active.Kind "section") $pages }}
+  {{- $active = index $pages 0 }}
+{{- end }}
+<nav class="news-archive" aria-label="News archive">
+  {{- range $pages.GroupByDate "2006" "desc" }}
+  <details class="news-year"{{ if eq .Key ($active.Date.Format "2006") }} open{{ end }}>
+    <summary>{{ .Key }}<span class="archive-count">{{ len .Pages }}</span></summary>
+    {{- range .Pages.GroupByDate "01" "desc" }}
+    {{- $isActiveMonth := and (eq ((index .Pages 0).Date.Format "2006") ($active.Date.Format "2006")) (eq .Key ($active.Date.Format "01")) }}
+    <details class="news-month"{{ if $isActiveMonth }} open{{ end }}>
+      <summary>{{ .Key }}月<span class="archive-count">{{ len .Pages }}</span></summary>
+      <ul class="sidebar-posts">
+        {{- range .Pages.ByDate.Reverse }}
+        {{- $isActive := eq .RelPermalink $active.RelPermalink }}
+        <li class="sidebar-post{{ if $isActive }} active{{ end }}">
+          <a href="{{ .RelPermalink }}"{{ if $isActive }} aria-current="page"{{ end }}><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02" }}</time> {{ .Title }}</a>
+        </li>
+        {{- end }}
+      </ul>
+    </details>
+    {{- end }}
+  </details>
+  {{- end }}
+</nav>

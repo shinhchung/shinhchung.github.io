@@ -1,0 +1,8 @@
+{{- define "main" }}
+  {{- with .RegularPages.ByDate.Reverse }}
+    {{- partial "post-single.html" (index . 0) }}
+  {{- else }}
+    <header class="page-header"><h1>{{ $.Title }}</h1></header>
+    <p>No news articles yet.</p>
+  {{- end }}
+{{- end }}

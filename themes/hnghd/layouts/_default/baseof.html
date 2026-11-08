@@ -22,7 +22,7 @@
 <body id="top">
 {{- end }}
     {{ partialCached "header.html" . .Page -}}
-    <div class="layout-wrapper">
+    <div class="layout-wrapper{{ if eq .Section "news" }} news-layout{{ end }}">
         {{- partial "sidebar.html" . }}
         <main class="main">
             {{- block "main" . }}{{ end }}

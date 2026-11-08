@@ -67,6 +67,10 @@ Feel free to click around, and feel free to connect with me via the social links
 
 [menu]
   [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = -1
+  [[menu.main]]
     name = "Blog"
     url = "/blog/"
     weight = 1

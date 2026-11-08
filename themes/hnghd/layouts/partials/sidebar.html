@@ -1,4 +1,4 @@
-<aside class="sidebar" id="sidebar">
+<aside class="sidebar{{ if eq .Section "news" }} news-sidebar{{ end }}" id="sidebar">
   <div class="sidebar-inner">
     {{- $currentSection := .Section }}
     {{- range site.Sections }}
@@ -7,6 +7,9 @@
       <h3 class="sidebar-section-title">
         <a href="{{ .Permalink }}">{{ .Title }}</a>
       </h3>
+      {{- if eq .Section "news" }}
+      {{- partial "news-archive.html" (dict "RegularPages" .RegularPages "Current" $) }}
+      {{- else }}
       <ul class="sidebar-posts">
         {{- range .Pages.ByDate.Reverse }}
         <li class="sidebar-post{{- if eq $.RelPermalink .RelPermalink }} active{{- end }}">
@@ -14,6 +17,7 @@
         </li>
         {{- end }}
       </ul>
+      {{- end }}
     </div>
     {{- end }}
     {{- end }}
